@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.air-card{
+  min-width: 500px;
+  max-width: 600px;
+}
+
+.label{
+  text-align: start;
+}
+.form-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.wrapper-form{
+ padding: 50px;
+}
+
+.mainGrid{
+  height: 100vh;
+}
+
+.air-assesment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  background: antiquewhite; 
+}
+
+.resultCard {
+  min-width: 250px;
+}
+
+.coordinates{
+  margin-bottom: 10px;
+}
+.backToHome{
+  margin-top: 20px !important;
+}
+
+.result-main{
+  width: 100%;
+  margin-right: 30px;
+}
