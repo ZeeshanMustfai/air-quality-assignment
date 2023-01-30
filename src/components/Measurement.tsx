@@ -11,9 +11,9 @@ const Measurement = ({
     {
       key: `panel-${value}`,
       title: unit,
-      content: `Parameter : ${parameter} , Air Quality: ${Math.round(
+      content: `Air Quality: ${Math.round(
         value as number
-      )} ${unit}`,
+      )} ${unit}, Parameter : ${parameter}`,
     },
   ];
   return <Accordion panels={panel} styled />;
