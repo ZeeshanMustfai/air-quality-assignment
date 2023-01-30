@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Form, Message, Button, Card, Header, Grid } from "semantic-ui-react";
 import axios from "axios";
 import ResultCard from "./ResultCard";
-import { CityAirQuality } from "../types/types";
-import { getCapitalize } from "../helper/helper";
+import { CityAirQuality } from "../types";
+import { getCapitalize } from "../helper";
 
 const AirQualityAssessment: React.FC = () => {
   const [error, setError] = useState<string>("");

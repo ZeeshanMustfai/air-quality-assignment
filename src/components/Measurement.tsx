@@ -1,5 +1,5 @@
 import { Accordion } from "semantic-ui-react";
-import { MeasurementsProp } from "../types/types";
+import { MeasurementsProp } from "../types";
 
 const Measurement = ({
   value,

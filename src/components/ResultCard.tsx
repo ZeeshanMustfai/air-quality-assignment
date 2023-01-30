@@ -1,6 +1,6 @@
 import { Card } from "semantic-ui-react";
 import Measurement from "./Measurement";
-import { MeasurementsProp, OneCityProp } from "../types/types";
+import { MeasurementsProp, OneCityProp } from "../types";
 
 const ResultCard = ({
   city,
